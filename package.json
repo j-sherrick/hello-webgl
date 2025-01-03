@@ -10,13 +10,13 @@
     "cleanup": "rm -rf dist/* .parcel-cache"
   },
   "keywords": [
-    "parcel",
+    "webgl",
+    "webgl2",
+    "glsl",
+    "shaders",
     "sass",
-    "css",
-    "bem",
-    "frontend",
-    "web development",
-    "webgl"
+    "parcel",
+    "web development"
   ],
   "author": "Jason Sherrick",
   "license": "MIT",
