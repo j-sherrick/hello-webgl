@@ -1,0 +1,29 @@
+{
+  "name": "hello-webgl",
+  "source": "src/index.html",
+  "version": "1.0.0",
+  "description": "This is a basic web page for doing some WebGL experimentation.",
+  "scripts": {
+    "start": "npx parcel --host 0.0.0.0 --port 4321",
+    "build": "npm run cleanup && npx parcel build --public-url ./",
+    "push-gh": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose",
+    "cleanup": "rm -rf dist/* .parcel-cache"
+  },
+  "keywords": [
+    "parcel",
+    "sass",
+    "css",
+    "bem",
+    "frontend",
+    "web development",
+    "webgl"
+  ],
+  "author": "Jason Sherrick",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.13.3",
+    "@types/webgl2": "^0.0.11",
+    "prettier": "^3.3.3",
+    "push-dir": "^0.4.1"
+  }
+}
